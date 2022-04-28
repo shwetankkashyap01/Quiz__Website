@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: 300;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.main-div {
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  background-color: burlywood;
+}
+
+.inner-div {
+  width: 90vw;
+  background-color: whitesmoke;
+  padding: 4rem 8rem;
+  border-radius: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 10px 10px 10px 8px #888888;
+}
+
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -42px;
+  border: none;
+  color: white;
+  background-color: whitesmoke;
+}
+
+.inner-div h2 {
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin: 10px 0 40px 0;
+}
+
+.inner-div li {
+  font-size: 1.5rem;
+  margin-top: 1.0rem;
+  list-style: none;
+}
+
+input {
+  cursor: pointer;
+}
+
+#Next {
+  background-color: darkslategray;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  border-radius: 0px;
+  margin-right: 100px;
+  margin-left: 100px;
+  font-size: 15px;
+  text-align: center;
+}
+
+#Previous {
+  background-color: darkslategray;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  border-radius: 0px;
+  margin-right: 200px;
+  margin-left: 200px;
+  font-size: 15px;
+  text-align: center;
+}
+
+#submit {
+  background-color: darkslategray;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  border-radius: 0px;
+  margin: 10px;
+  margin-right: 100px;
+  margin-left: 200px;
+  font-size: 15px;
+  text-align: center;
+}
+
+#Next:hover {
+  background-color: brown;
+}
+
+#submit:hover {
+  background-color: brown;
+}
+
+#Previous:hover {
+  background-color: brown;
+}
+
+#progressBar {
+  width: 50rem;
+  height: 1.5rem;
+  border: 0.3rem solid darkslategray;
+  border-radius: 0.0rem;
+  margin-top: 1.5rem;
+  background-color: white;
+}
+
+#progressBarFull {
+  height: 1.2rem;
+  background-color: darkslategray;
+  width: 0%;
+}
+
+.scorearea {
+  display: none;
+}
